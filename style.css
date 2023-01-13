@@ -1,0 +1,164 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #060606;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: black;
+  }
+  
+  .imagebody{
+    background-image: url('JojiImg.png');
+    background-size:cover;
+  }
+
+  .jojiSize{
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 50%;
+    height: 100%;
+  }
+
+  .divJojiDesciption{
+    padding: 5%;
+    text-align: center;
+    color: white;
+  }
+
+  .imghover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: brightness(50%);
+  }
+
+  .imghover:hover{
+    display: block;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: brightness(100%);
+  }
+
+  .centeredtxt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container {
+    text-align: center;
+    color: white;
+  }
+
+  .img-rounded:hover {
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+    filter: brightness(99%);
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  .hr-linesbl{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .hr-linesbl:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -120px;
+  }
+  
+  .hr-linesbl:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -120px;
+  }
+
+  .center{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .alignLeftImg{
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  @media only screen and (max-device-width: 540px) {
+    .jojiSize{
+      margin: 0;
+      position: relative;
+      margin-top: 0%;
+      margin-left: 0%;
+      left: 5%;
+      width: 90%;
+      height: 100%;
+    }
+  }
